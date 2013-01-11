@@ -33,6 +33,10 @@
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
+#["tom", "dick", "harry"].each do |name|
+#  proxy "/#{name}.html", "/template.html", :locals => { :js => name }, :ignore => true
+#end
+
 ###
 # Helpers
 ###
